@@ -1,0 +1,95 @@
+/* Configurações globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'cursiva', sans-serif;
+}
+
+/* Estilo do body da página */
+body {
+    background-color: #a4c1c9;   
+}
+
+/* Esilo do h2 */
+
+h2 {
+    font-family:'Poppins', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 3rem;
+    color: #1e052e;
+}
+
+/* Estilo do contêiner da calculadora */
+.calculator {
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #272727;
+}
+
+/* Estilo das células da tabela */
+table td {
+    display: inline-block;
+}
+
+/* Estilo dos botões da calculadora */
+.btn {
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    background-color: #351b3b;
+    color: #dfdfdf;
+    font-size: 16px;
+    transition: all 500ms ease-in-out;
+}
+
+/* Efeito de hover nos botões */
+.btn:hover {
+    background-color: #738045;
+}
+
+/* Estilo do botão 'AC' */
+.ac {
+    background-color: #1b7269;
+}
+
+.ac:hover {
+    background-color:#175f58;  
+}
+
+/* Estilo dos botões de operações especiais */
+.especial {
+    background-color: #228f84;
+}
+
+.especial:hover {
+    background-color: #18646b;
+}
+
+/* Estilo do botão de igual */
+.igual {
+    background-color: #1b7269;
+}
+
+.igual:hover {
+    background-color: #25968a;
+}
+
+/* Estilo do resultado da calculadora */
+.result {
+    height: 100px;
+    color: #dfdfdf;
+    text-align: right;
+    font-size: 35px;
+    word-wrap: break-word;
+    border-bottom: 1px solid #25968a;
+    padding: 1rem;
+}
